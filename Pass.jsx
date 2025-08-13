@@ -42,7 +42,8 @@ const Pass = () => {
   return (
     <>
    
-     <div style={{width:350,  background: "#022b5f"}}>
+     <div className="w-screen overflow-x-auto flex justify-center">
+     <div style={{ width: 350, background: "#022b5f" }}>
          <div className='p-4'>
             <p className='text-center text-2xl text-white font-bold'>Passsword Generator</p>
 
@@ -80,7 +81,7 @@ const Pass = () => {
          </div>
        
      </div>
-   
+   </div>
 
      
     </>
